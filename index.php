@@ -16,7 +16,6 @@
       rel="stylesheet">
       <link href="https://cdn.materialdesignicons.com/2.8.94/css/materialdesignicons.min.css"
       rel="stylesheet">
-      
       <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
       <script type="text/javascript" src="/node_modules/bulma-extensions/bulma-quickview/dist/bulma-quickview.min.js"></script>
 
@@ -123,6 +122,8 @@
                         </button> 
                     </a>
                     
+                    <button class="button is-primary" data-show="quickview" data-target="quickviewDefault">Show quickview</button>
+
 
                 </div>
             </div>
@@ -280,128 +281,59 @@
                             Connaissances académiques
                         </h2> 
                         
-                         <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                         <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                  <i class="fas fa-project-diagram"></i></span>
                              <span>Project Management / Project Analysis</span>
                         </a>
-                         
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon">
-                                 <i class="fas fa-project-diagram"></i></span>
-                             <span>Project Management / Project Analysis</span>
-                        </a>
-                         
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                        <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                  <i class="fas fa-industry"></i>
                              </span>
                              <span>Gestion de production / Gestion des stocks</span>
                         </a>
-                         
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon">
-                                 <i class="fas fa-industry"></i>
-                             </span>
-                             <span>Gestion de production / Gestion des stocks</span>
-                        </a>
-                         
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                        <a class="button" style="margin-bottom:3px">
                              <span class="icon" style="margin-top:3px">
                                 <img src="img/noun_Probability%20curve_614252.png" class="image is-24x24 is-pulled-left" style="margin-right:5px;">
                              </span>
                              <span>Probabilités, Statistiques</span>
                         </a>
-                         
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon" style="margin-top:3px">
-                                <img src="img/noun_Probability%20curve_614252.png" class="image is-24x24 is-pulled-left" style="margin-right:5px;">
-                             </span>
-                             <span>Probabilités, Statistiques</span>
-                        </a>
-                         
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                        <a class="button" style="margin-bottom:3px">
                                 <span class="mdi mdi-stack-overflow" style="margin-right:3px"></span>
                              <span>Processus stochastiques et simulation</span>
                         </a>
-                         
-                           <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                                <span class="mdi mdi-stack-overflow" style="margin-right:3px"></span>
-                             <span>Processus stochastiques et simulation</span>
-                        </a>
-                         
-                         <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                         <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                 <img src="img/noun_accounting_1650339.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
                              </span>
                              <span>Gestion financière</span>
                         </a>
-                         
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon">
-                                <img src="img/noun_accounting_1650339.png" class="image is-12x12 is-pulled-left" style="margin-right:5px; margin-top:3px">
-                             </span>
-                             <span>Gestion financière</span>
-                        </a>
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                        <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                 <img src="img/noun_molecule_132343.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
                              </span>
                              <span>Science des matériaux</span>
                         </a>
-                        <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon">
-                                <img src="img/noun_molecule_132343.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
-                             </span>
-                             <span>Science des matériaux</span>
-                        </a>
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                        
+                        <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                 <img src="img/noun_process_2021778.png" class="image is-24x24 is-pulled-left" style="margin-right:5px;">
                              </span>
                              <span>Modélisation / Optimisation des processus</span>
                         </a>
-                         
-                          <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon">
-                                <img src="img/noun_process_2021778.png" class="image is-24x24 is-pulled-left" style="margin-right:5px;">
-                             </span>
-                             <span>Modélisation / Optimisation des processus</span>
-                        </a>
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                        <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                 <img src="img/noun_design_1682729.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
                              </span>
                              <span>Conception</span>
                         </a>
-                         
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon">
-                                <img src="img/noun_design_1682729.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
-                             </span>
-                             <span>Conception</span>
-                        </a>
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
+                        <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                 <img src="img/noun_System%20Integration_2023413.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
                              </span>
                              <span>Systèmes d'information</span>
                         </a>
-                         
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span class="icon">
-                                <img src="img/noun_System%20Integration_2023413.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
-                             </span>
-                             <span>Systèmes d'information</span>
-                        </a>
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
-                             <span class="icon">
-                                <img src="img/noun_Gantt%20Chart_934931.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
-                             </span>
-                             <span>Planification, ordonnancement</span>
-                        </a>
-                         
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
+                        <a class="button" style="margin-bottom:3px">
                              <span class="icon">
                                 <img src="img/noun_Gantt%20Chart_934931.png" class="image is-24x24 is-pulled-left" style="margin-right:5px; margin-top:3px">
                              </span>
@@ -410,7 +342,47 @@
                          
 
                     </div>
+                    <div class="box content">
+                        <div class="media">
+                            <div class="media-left icon is-medium fa-layers fa-fw fa-2x">
+                                <i class="fas fa-circle has-text-primary"></i>
+                                <i class="fas fa-at" data-fa-transform="shrink-0"></i>
+                            </div>
+                            <div class="media-content">
+                                <form class="contact-form" action="contactform.php" method="post">
+                                    <div class="field has-addons">
+                                        <div class="control">
+                                            <div class="button is-static">Nom :</div>
+                                        </div>
+                                        <div clas="control is-expanded">
+                                            <input class="text" class="input" name="name" placeholder="Votre nom">
+                                        </div>
+                                    </div>
+                                    <div class="field has-addons">
+                                        <div class="control">
+                                            <div class="button is-static">Adresse mail :</div>
+                                        </div>
+                                        <div clas="control is-expanded">
+                                            <input class="text" class="input" name="mail" placeholder="Votre nom ici">
+                                        </div>
+                                    </div>
+                                    <div class="field">
+                                        <div class="control">
+                                            <textarea class="textarea" name="message" placeholder="Votre message ici" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="submit" name="submit" class="button-is-primar">Envoyer votre message</button>
+                                
+                                
+                                </form>
+                            </div>
+                        
+                        
+                        
+                        
+                        </div>
                     
+                    </div>
                 
                 </div>
             
@@ -458,14 +430,7 @@
                         </h2> 
                         
                         <div class="field is-grouped is-grouped-multiline">
-                            <div class="control is-hidden-mobile">
-                                <div class="tags has-addons">
-                                    <span class="tag is-medium is-grey-dark"><strong>Anglais</strong></span>
-                                    <span class="tag is-medium is-success">Maîtrise (B2 au TOEIC)</span>
-                                </div>
-                            </div>
-                            
-                            <div class="control is-small is-hidden-tablet">
+                            <div class="control">
                                 <div class="tags has-addons">
                                     <span class="tag is-medium is-grey-dark"><strong>Anglais</strong></span>
                                     <span class="tag is-medium is-success">Maîtrise (B2 au TOEIC)</span>
@@ -482,7 +447,7 @@
                             <div class="control">
                                 <div class="tags has-addons">
                                     <span class="tag is-medium is-grey-light">Français</span>
-                                    <span class="tag is-medium is-success">Courant</span>
+                                    <span class="tag is-medium is-success">Courant (langue maternelle)</span>
                                 </div>
                             </div>
                         </div>
@@ -496,72 +461,16 @@
                             Centres d'intérêt
                         </h2> 
                         
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
-                             <span class="is-size-7">Musique : DJing, Composition, Piano, Clarinette</span>
-                        </a>
-                        
-                        <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span>Musique : DJing, Composition, Piano, Clarinette</span>
-                        </a>
-                        
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
-                             <span class="is-size-7">Voyages : New York, Berlin, Londres, Barcelone</span>
-                        </a>
-                        
-                          <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span>Voyages : New York, Berlin, Londres, Barcelone</span>
-                        </a>
-                        
-                         <a class="button is-hidden-mobile" style="margin-bottom:3px">
-                             <span class="is-size-7">Cinéma</span>
-                        </a>
-                        
-                        <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span>Cinéma</span>
-                        </a>
-                        
-                         <a class="button is-hidden-mobile" style="margin-bottom:3px">
-                             <span class="is-size-7">Football</span>
-                        </a>
-                        
-                         <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span>Football</span>
-                        </a>
-                        
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
-                             <span class="is-size-7">Voile</span>
-                        </a>
-                        
-                        <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span>Voile</span>
-                        </a>
-                        
-                        <a class="button is-hidden-mobile" style="margin-bottom:3px">
-                             <span class="is-size-7">Surf</span>
-                        </a>
-                        
-                        <a class="button is-small is-hidden-tablet" style="margin-bottom:3px">
-                             <span>Surf</span>
-                        </a>
-                        
                         
                     </div>
-                    
-                    <div class="box content">
-                        <script type="text/javascript" src="https://form.jotformeu.com/jsform/83113946451355"></script>
-                            </div>
-                        
-                        
-                        
-                        
-                        </div>
-                    
-                    </div>
-                    
                     
                 </div>
-
+            </div>
+        </div>
     </section>
+    
+        
+                        
             
   
 <footer class="footer">
